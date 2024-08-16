@@ -1,0 +1,138 @@
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+@font-face{
+    font-family: coffee-font ;
+    src: url(./images/Coffee-font.ttf);
+}
+
+@font-face{
+    font-family: coffee-font2 ;
+    src: url(./images/Coffee-font2.ttf);
+}
+nav {
+    width: 100%;
+    height: 55px;
+    border: 1px solid white;
+    background-color: #606C5D;
+    position: fixed;
+    display: flex;
+}
+
+.logo {
+    width: 20%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo h1 {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.menu {
+    width: 73%;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu ul a li {
+    color: white;
+    font-family: sans-serif;
+    font-size: 1rem;
+    padding-right: 35px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.hero-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.descriptive{
+    width: 65%;
+    height: 97vh;
+    background-color: #C1D1B5;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.descriptive-only{
+    width: 90%;
+    height: 80%; 
+    margin-top: 100px;
+}
+.heading {
+    width: 50%;
+    height: auto;
+    color: #606C5D;
+    font-size: 2.4rem;
+    font-family: coffee-font2;
+    line-height: 0.6;
+}
+
+.para{
+    width: 82%;
+    height: auto;
+}
+
+.para p {
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    word-spacing: 2px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.btn{
+    padding: 15px 20px;
+    margin-left: 5px;
+    margin-top: 10px;
+    font-size: 1rem;
+    background-color: #606C5D;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.bean-image{
+    width: 35%;
+    height: 97vh;
+    background-color: #606C5D;
+}
+
+.bean-image img {
+    width: 80%;
+    height: 95%;
+    margin-top: 45px;
+    margin-left: 92px;
+}
+
+.coffee-bag{
+    width: 14%;
+    height: 40%;
+    position: absolute;
+    transform: translateX(895px) translateY(250px);
+}
